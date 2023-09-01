@@ -6,8 +6,6 @@ body{
 }#sneakPeekScreen{
     width: 100%;
     height: 100%;
-    width: 200px;
-    height: 350px;
     position: relative;
     background-image: url(./assets/sneakPeek/portrait_screen.png);
     background-repeat: no-repeat;
