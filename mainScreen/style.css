@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'robotCondensed';
-    src: url('./assets/fonts/Classic\ Robot\ Condensed.ttf') format('truetype');
+    src: url('./public/fonts/Classic\ Robot\ Condensed.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,8 +12,6 @@ body{
 }#mainScreen{
     width: 100%;
     height: 100%;
-    /* width: 480px;
-    height: 787px; */
     position: relative;
     background-image: url(./public/main_bg.png);
     background-repeat: no-repeat;
@@ -24,18 +22,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}img{
+    width: 17.5%;
+    height: auto;
+    top: 17.5%;
+    position: absolute;
 }#mainHeading{
     width: 70%;
     height: max-content;
     text-align: center;
-    /* background-image: url(./assets/sneakPeek/Vector\ 143.png); */
     background-size: 100% 100%;
     position: absolute;
     background-repeat: no-repeat;
-    left: 10.5%;
-    top: 10%;
+    /* left: 10.5%; */
+    bottom: 15.0%;
     padding: 2.0%;
 }#mainHeading h1{
-    font-size: 250%;
+    font-size: 400%;
     margin: 0px;
+    color: white;
+    font-weight: normal;
+}#mainHeading p{
+    font-size: 225%;
+    margin: 0px;
+    color: #7b7b7b;
+    cursor: pointer;
 }
