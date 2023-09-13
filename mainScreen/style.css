@@ -66,6 +66,22 @@ img {
     background-image: url(./public/simple_bg.png) !important;
     width: 100%;
 }
+#codeContent{
+    width: 60%;
+    position: relative;
+    transform: translateY(-30%);
+}
+#codeContent h1{
+    font-size: 250%;
+    margin: 0;
+}
+#codeContent p{
+    font-size: 115%;
+    text-align: start;
+    border-top: #FF4F4F solid 2px;
+    padding: 2.5% 0% 0 0;
+    margin: 2.5% 0% 0 0;
+}
 #codeInput{
     display: flex;
     align-items: center;
