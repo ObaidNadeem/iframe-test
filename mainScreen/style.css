@@ -28,7 +28,7 @@ body{
     top: 17.5%;
     position: absolute;
 }#mainHeading{
-    width: 40%;
+    width: 100%;
     height: max-content;
     text-align: center;
     background-size: 100% 100%;
