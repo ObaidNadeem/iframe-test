@@ -64,13 +64,13 @@ body {
 
 #mintHeading {
     width: 70%;
-    height: 20%;
+    height: 23%;
     text-align: center;
     background-size: 100% 100%;
     position: absolute;
     background-repeat: no-repeat;
     bottom: 15%;
-    left: 10%;
+    left: 11%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,14 +79,14 @@ body {
 }
 
 #mintHeading h1 {
-    font-size: 500%;
+    font-size: 325%;
     margin: 0px;
     color: white;
     font-weight: normal;
 }
 
 #mintHeading p {
-    font-size: 325%;
+    font-size: 200%;
     margin: 0px;
     color: #7b7b7b;
     cursor: pointer;
