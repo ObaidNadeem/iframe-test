@@ -158,7 +158,7 @@ input.red-input:hover {
     top: 0%;
     width: 27.5%;
     height: auto;
-    transform: translateX(-125%);
+    transform: translateX(-270%);
 }
 a {
     text-decoration: none !important;
