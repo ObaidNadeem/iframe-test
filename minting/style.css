@@ -13,6 +13,8 @@ body {
 #mintScreen {
     width: 100%;
     height: 100%;
+    width: 1090px;
+    height: 470px;
     position: relative;
     background-image: url(./public/main_bg.png);
     background-repeat: no-repeat;
@@ -23,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 #mintingScreen {
@@ -112,9 +115,8 @@ a {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding: .5%;
+    padding: 0.5%;
     background-color: rgba(191, 59, 59, 0.68);
-
 }
 
 #mintNowHeading h1 {
@@ -122,24 +124,115 @@ a {
     margin: 0px;
     color: white;
     font-weight: normal;
-    
+}
+
+#mintingNftScreen {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#mintingNftScreen img {
+    height: 45%;
+    margin: 1.5%;
+}
+
+#nftContent {
+    width: 27.5%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#nftDesc {
+    width: 100%;
+    border-bottom: 2px solid #ff4f4f;
+}
+
+#nftDesc h1 {
+    color: white;
+    margin: 1.5% 0 0 0;
+}
+
+#nftDesc p {
+    color: white;
+    margin: 1.5% 0 5% 0;
+    font-size: 125%;
 }
 
 #nftDetails {
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid #ff4f4f;
 }
 
-#nftDetails p {
+/* Style the divs inside nftDetails */
+#nftDetails div {
+    /* Your styles here */
+}
+
+/* Style the p elements inside nftDetails */
+/* Upper h1 */
+#nftDetails h1:first-child {
     flex: 1;
+    font-size: 125%;
+    color: white;
     text-align: center;
+    margin: 10% 0 15% 0;
+}
+
+/* Lower h1 */
+#nftDetails h1:last-child {
+    flex: 1;
+    font-size: 125%;
+    color: white;
+    text-align: center;
+    margin: 15% 0 10% 0;
 }
 
 #mftCounter {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    width: 45%;
+    background-color: rgba(255, 79, 79, 0.2);
 }
-#mftCounter div {
+
+#mftCounter h1 {
+    font-size: 150%;
+    margin: 5%;
     cursor: pointer;
+}
+
+#nftBuyBtn {
+    display: flex;
+    color: white;
+    width: 80%;
+    cursor: pointer;
+}
+
+#nftBuyBtn div:first-child {
+    width: 100%;
+    background-image: url(./public/metamask.png);
+    background-repeat: no-repeat;
+}
+
+#nftBuyBtn div:first-child p {
+    margin: 10%;
+    transform: translateX(40%) translateY(10%);
+    font-size: 80%;
+}
+
+#nftBuyBtn div:last-child {
+    width: 100%;
+    background-image: url(./public/message_hud.png);
+    background-repeat: no-repeat;
+}
+
+#nftBuyBtn div:last-child p {
+    margin: 10%;
+
+    font-size: 80%;
 }
