@@ -135,6 +135,7 @@ a {
 #mintingNftScreen img {
     height: 65%;
     margin: 1.5%;
+    transform: translateY(-5%);
 }
 
 #nftContent {
@@ -143,6 +144,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transform: translateY(-5%);
 }
 
 #nftDesc {
