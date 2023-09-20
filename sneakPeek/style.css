@@ -37,6 +37,8 @@ body{
 }#sneakHeading h1 {
     font-size: 210%;
     margin: 0px;
+    font-weight: normal;
+    
 }#sneakSide {
     width: 50%;
     height: 83%;
@@ -73,12 +75,15 @@ body{
 }.block h1{
     font-size: 125%;
     margin: 0;
+    font-weight: lighter;
 }.block h1:nth-of-type(1){
     align-self: flex-end;
 }.block h2{
     font-size: 75%;
     margin: 0px;
     font-weight: 100;
+    font-weight: lighter;
+
 }
 .block:nth-child(odd) {
     background-image: url(./assets/sneakPeek/Vector\ 146.png);
