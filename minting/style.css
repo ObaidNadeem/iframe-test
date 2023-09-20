@@ -28,6 +28,11 @@ body {
     color: white;
 }
 
+#mintScreen h1{
+    font-size: 460%;
+}
+
+
 #mintingScreen {
     width: 100%;
     height: 100%;
