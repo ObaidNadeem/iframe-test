@@ -1,0 +1,66 @@
+#menu {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#menu img {
+    /* position: relative; */
+}
+
+#left-line {
+    width: 35%;
+    transform: translate(1%,40%);
+}
+
+#exit-btn {
+    position: absolute;
+    width: 12.5%;
+    transform: translate(100%,-65%);
+    cursor: pointer;
+
+}
+
+#dc-icon {
+    position: absolute;
+    width: 1.35%;
+    transform: translate(-650%,160%);
+    cursor: pointer;
+
+}
+
+#menu-logo {
+    width: 15%;
+    transform: translate(0%,0%);
+}
+
+#twitter-icon {
+    position: absolute;
+    width: 1.35%;
+    transform: translate(650%,160%);
+    cursor: pointer;
+}
+
+#join-dc {
+    position: absolute;
+    width: 12.5%;
+    transform: translate(-100%,-65%);
+    cursor: pointer;
+
+}
+
+#right-line {
+    width: 35%;
+    transform: translate(-1%,40%);
+}
+
+#volume {
+    position: absolute;
+    width: 1.75%;
+    right: 0;
+    transform: translate(-500%,-25%);
+    cursor: pointer;
+}
