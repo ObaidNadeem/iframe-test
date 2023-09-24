@@ -71,77 +71,82 @@ img {
     width: 100%;
 }
 #codeContent {
-    width: 60%;
+    width: 66%;
     position: relative;
-    transform: translateY(-30%);
+    transform: translate(-5%,-15%);
 }
 #codeContent h1 {
-    font-size: 250%;
+    font-size: 188%;
     margin: 0;
+    transform: translate(1%, 11%);
 }
 #codeContent p {
-    font-size: 115%;
+    font-size: 135%;
     text-align: start;
     border-top: #ff4f4f solid 2px;
     padding: 2.5% 0% 0 0;
     margin: 2.5% 0% 0 0;
 }
 #codeInput {
+    width: 100%;
+    height: max-content;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 #codeInput #input {
-    width: 150%;
+    width: 31%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     flex-direction: column;
     text-align: left !important;
-    /* margin: 0 30px; */
+    margin: 0 30px;
 }
 #codeInput #input input {
     border: none;
-    width: 200%;
+    width: 84%;
     height: 100%;
     outline: none;
     padding: 0;
     margin: 0;
     background: none;
     color: white;
-    padding: 10%;
+    padding: 4.5% 0;
     background-color: rgba(255, 79, 79, 0.45);
+    align-self: flex-start;
 }
 #codeInput #input p {
     padding: 0;
-    font-size: 100%;
+    font-size: 118%;
     margin: 0;
     align-self: flex-start;
-    margin: 2.5%;
-    margin-left: -60%;
+    margin: 3% 1%;
 }
 #codeInput #input::before {
     content: "";
     position: absolute;
     display: block;
-    width: 190%;
+    align-self: flex-start;
+    width: 67%;
     bottom: 35%;
     padding: 0% 5%;
-    height: 1%; /* Corrected value */
+    height: 1%;
     background-color: rgb(255, 79, 79);
+    left: 4%;
 }
 #submitCode {
-    width: 100%;
+    width: auto;
     cursor: pointer;
-    padding: 2.5% 2.5%;
+    padding: 1.25% 4.0%;
     height: max-content;
-    font-size: 100%;
-    background-image: url("./public/btn.png");
+    font-size: 115%;
+    background-image: url(./public/btn.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
-    transform: translateX(100%);
+    transform: translate(-49%,8%);
 }
 input.red-input {
     background-color: red;
@@ -156,9 +161,9 @@ input.red-input:hover {
 #codeInput img {
     position: relative;
     top: 0%;
-    width: 27.5%;
+    width: 12%;
     height: auto;
-    transform: translateX(-270%);
+    transform: translateX(-333%);
 }
 a {
     text-decoration: none !important;
