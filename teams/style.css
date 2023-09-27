@@ -55,6 +55,7 @@ body {
     width: 81%;
     height: max-content;
     top: 35.5%;
+    left: 11%;
     text-align: center;
     z-index: -1;
 }
@@ -62,7 +63,7 @@ body {
 .splide__arrow--next,
 .splide__arrow--prev {
     background: none !important;
-    top: 50% !important;
+    top: -110% !important;
 }
 .splide__arrow--prev {
     left: -3.5% !important;
