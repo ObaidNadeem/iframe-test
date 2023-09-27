@@ -64,6 +64,9 @@ body {
 .splide__arrow--prev {
     background: none !important;
     top: 35% !important;
+}.splide__slide{
+    display: flex;
+    justify-content: center;
 }
 .splide__arrow--prev {
     left: -3.5% !important;
@@ -95,7 +98,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
+    height: 80%;
+    padding-top: 19%;
 }
 .serial-number {
     text-align: right;
