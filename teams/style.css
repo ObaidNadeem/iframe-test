@@ -80,6 +80,9 @@ body {
     fill: #ff4f4f !important;
     width: 100% !important;
     height: 100% !important;
+}.splide__slide{
+    display: flex;
+    justify-content: center;
 }
 .team-member {
     width: 86%;
