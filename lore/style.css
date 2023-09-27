@@ -14,8 +14,8 @@ body {
 #loreScreen {
     width: 100%;
     height: 100%;
-    width: 675px;
-    height: 440px;
+    /* width: 675px;
+    height: 440px; */
     position: relative;
     background-image: url(./public/lore-bg.png);
     background-repeat: no-repeat;
@@ -91,14 +91,15 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    height: 100%;
+    height: max-content;
     position: absolute;
-    top: 2.5%;
+    top: 30%;
 }
 #lore-content img {
     width: 37%;
 }
 #lore-content p {
+    font-size: 100%;
     width: 70%;
     padding-right: 1%;
 }
