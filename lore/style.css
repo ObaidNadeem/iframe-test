@@ -14,8 +14,8 @@ body {
 #loreScreen {
     width: 100%;
     height: 100%;
-    /* width: 1090px;
-    height: 470px; */
+    width: 675px;
+    height: 440px;
     position: relative;
     background-image: url(./public/lore-bg.png);
     background-repeat: no-repeat;
@@ -27,4 +27,58 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+}
+#loreHeading {
+    width: 70%;
+    height: 23%;
+    text-align: center;
+    background-size: 100% 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 18.5%;
+    left: 11%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+#loreHeading h1 {
+    font-size: 200%;
+    margin: 0px;
+    color: white;
+    font-weight: normal;
+}
+#lore-cards {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 22.5%;
+}
+#lore-card {
+    width: 125px;
+    height: 200px;
+    background-image: url(./public/lore-card-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}#lore-card img {
+    height: 95%;
+    width: 95%;
+}
+#lore-card::after {
+    content: "";
+    position: absolute;
+    top: 3.5%;
+    width: 92%;
+    height: 93%;
+    display: inline-block;
+    background: linear-gradient(195deg, rgba(113, 255, 214, 0.80) -34.24%, rgba(0, 0, 0, 0.80) 62.91%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    opacity: 80%;
 }
