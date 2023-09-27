@@ -55,7 +55,7 @@ body {
     width: 81%;
     height: max-content;
     top: 35.5%;
-    left: 11%;
+    /* left: 11%; */
     text-align: center;
     z-index: -1;
 }
