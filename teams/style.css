@@ -52,7 +52,7 @@ body {
 }
 .slider {
     position: absolute;
-    width: 80%;
+    width: 77.5%;
     height: max-content;
     top: 35.5%;
     /* left: 11%; */
@@ -86,7 +86,7 @@ body {
 }
 .team-member {
     width: 86%;
-    height: 79%;
+    height: 82%;
     /* width: 125px; */
     /* height: 165px; */
     background-image: url(./public/teams-bg.png);
@@ -101,7 +101,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 73%;
+    height: 77%;
     padding-top: 19%;
 }
 .serial-number {
@@ -110,7 +110,7 @@ body {
     margin: 5%;
 }
 .team-member img {
-    width: 63%;
+    width: 70%;
     border: #ff4f4f 1px solid;
 }
 .team-member-name {
