@@ -36,7 +36,7 @@ body {
     position: absolute;
     background-repeat: no-repeat;
     top: 15.5%;
-    left: 15%;
+    left: 14%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,11 +44,11 @@ body {
     padding: 2%;
     font-weight: lighter;
 }
-#loreHeading h1 {
-    font-size: 200%;
+#teamHeading h1 {
+    font-size: 100%;
     margin: 0px;
     color: white;
-    font-weight: normal;
+    font-weight: lighter;
 }
 .slider {
     position: absolute;
