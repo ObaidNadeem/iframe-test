@@ -45,14 +45,14 @@ body {
     font-weight: lighter;
 }
 #teamHeading h1 {
-    font-size: 100%;
+    font-size: 210%;
     margin: 0px;
     color: white;
     font-weight: lighter;
 }
 .slider {
     position: absolute;
-    width: 80%;
+    width: 77.5%;
     height: max-content;
     top: 35.5%;
     /* left: 11%; */
