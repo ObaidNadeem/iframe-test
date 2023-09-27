@@ -79,7 +79,7 @@ body {
     height: 100% !important;
 }
 .team-member {
-    width: 100%;
+    width: 90%;
     height: 100%;
     /* width: 125px; */
     /* height: 165px; */
@@ -87,7 +87,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
-    padding-top: 0.35%;
+    padding-top: 5%;
     /* padding-bottom: 11%; */
 }
 .team-member-content {
@@ -95,8 +95,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 80%;
-    padding-top: 19%;
+    height: 100%;
 }
 .serial-number {
     text-align: right;
