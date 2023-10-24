@@ -1,6 +1,6 @@
 new Splide('.splide', {
     type: 'loop',
-    perPage: 4,
+    perPage: 3,
     focus: 'none',
     pagination: false
 }).mount();
