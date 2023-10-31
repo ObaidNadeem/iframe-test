@@ -52,9 +52,9 @@ body {
 }
 .slider {
     position: absolute;
-    width: 78.5%;
+    width: 55.5%;
     height: max-content;
-    top: 35.5%;
+    top: 33.5%;
     /* left: 11%; */
     text-align: center;
     z-index: -1;
@@ -86,7 +86,8 @@ body {
 }
 .team-member {
     width: 86%;
-    height: 82%;
+    /* height: 82%; */
+    height: auto;
     /* width: 125px; */
     /* height: 165px; */
     background-image: url(./public/teams-bg.png);

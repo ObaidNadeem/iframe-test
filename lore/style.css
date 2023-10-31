@@ -14,10 +14,12 @@ body {
 #loreScreen {
     width: 100%;
     height: 100%;
-    /* width: 675px;
-    height: 440px; */
+    width: 675px;
+    height: 440px;
+    width: 1090px;
+    height: 470px;
     position: relative;
-    background-image: url(./public/lore-bg.png);
+    background-image: url(./public/simple_bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -29,13 +31,13 @@ body {
     color: white;
 }
 #loreHeading {
-    width: 70%;
+    width: 75%;
     height: 23%;
     text-align: center;
     background-size: 100% 100%;
     position: absolute;
     background-repeat: no-repeat;
-    top: 18.5%;
+    top: 13.5%;
     left: 11%;
     display: flex;
     justify-content: space-between;
@@ -51,13 +53,13 @@ body {
 }
 #lore-cards {
     display: flex;
-    width: 70%;
+    width: 50%;
     justify-content: space-between;
     position: absolute;
     bottom: 21%;
 }
 #lore-card {
-    width: 100%;
+    width: 110%;
     height: 100%;
     background-image: url(./public/lore-card-bg.png);
     background-repeat: no-repeat;
@@ -73,12 +75,19 @@ body {
     height: 95%;
     width: 95%;
 }
+#lore-card h1 {
+    position: absolute;
+    z-index: 9;
+    font-size: 125%;
+    font-weight: lighter;
+    bottom: 0;       
+}
 #lore-card::after {
     content: "";
     position: absolute;
-    top: 3.5%;
+    top: 0.5%;
     width: 92%;
-    height: 93%;
+    height: 98.5%;
     display: inline-block;
     background:
         linear-gradient(195deg, rgba(113, 255, 214, 0.8) -34.24%, rgba(0, 0, 0, 0.8) 62.91%),
@@ -89,17 +98,98 @@ body {
 #lore-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 80%;
+    align-items: flex-start;
+    width: 70%;
     height: max-content;
     position: absolute;
     top: 30%;
 }
 #lore-content img {
-    width: 37%;
+    width: 30%;
 }
 #lore-content p {
-    font-size: 100%;
-    width: 70%;
+    font-size: 125%;
+    width: 68%;
     padding-right: 1%;
+    position: absolute;
+    height: 100%;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #ff4f4f #ffffff;
+}
+
+*::-webkit-scrollbar {
+    width: 7.5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ff4f4f;
+    border-radius: 25px;
+    /* border: 3px solid #ffffff; */
+}
+
+.loreCloseBtn {
+    background-image: url(./public/loreClose.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0.75% 4%;
+    position: absolute;
+    bottom: 18%;
+    cursor: pointer;
+}
+
+.loreCloseBtn h1 {
+    font-weight: lighter;
+    font-size: 75%;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none !important ;
+    color: white;
+    height: max-content;
+}
+
+.slider {
+    position: absolute;
+    width: 85%;
+    height: max-content;
+    top: 13.5%;
+    text-align: center;
+    z-index: -1;
+}
+
+.splide__slide img {
+    width: 70% !important;
+}
+
+.splide__arrow--next,
+.splide__arrow--prev {
+    background: none !important;
+    top: 60% !important;
+}
+
+.splide__slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.splide__slide svg,
+.splide__arrow--next svg,
+.splide__arrow--prev svg {
+    fill: #FF4F4F !important;
+    width: 100% !important;
+    height: 100% !important;
 }
