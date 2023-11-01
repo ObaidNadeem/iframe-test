@@ -16,8 +16,8 @@ body {
     height: 100%;
     /* width: 675px;
     height: 440px; */
-    /* width: 1090px;
-    height: 470px; */
+    width: 1090px;
+    height: 470px;
     position: relative;
     background-image: url(./public/simple_bg.png);
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ body {
 }
 
 #lore-card {
-    width: 125%;
+    width: 110%;
     height: 100%;
     background-image: url(./public/lore-card-bg.png);
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ body {
     content: "";
     position: absolute;
     top: 3.25%;
-    width: 90%;
+    width: 98%;
     height: 93.5%;
     display: inline-block;
     background:
@@ -159,7 +159,7 @@ a {
     width: 60%;
     justify-content: space-between;
     position: absolute;
-    bottom: 25%;
+    bottom: 21%;
     position: absolute;
     height: max-content;
     /* top: 13.5%; */
@@ -167,7 +167,7 @@ a {
     z-index: -1;
 }
 .splide__slide img {
-    width: 70% !important;
+    width: 100% !important;
 }
 .splide__slide,
 .splide__arrow--next,
@@ -182,7 +182,7 @@ a {
     /* left: -3.5% !important; */
 }
 .splide__arrow--next {
-    right: -2% !important;
+    right: -.5% !important;
 }
 .splide__slide svg,
 .splide__arrow--next svg,
