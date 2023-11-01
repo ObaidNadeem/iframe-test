@@ -1,16 +1,17 @@
 @font-face {
-    font-family: 'robotCondensed';
-    src: url('./assets/fonts/Classic\ Robot\ Condensed.ttf') format('truetype');
+    font-family: "robotCondensed";
+    src: url("./assets/fonts/Classic\ Robot\ Condensed.ttf") format("truetype");
     /* font-weight: normal; */
     /* font-style: normal; */
 }
-body{
+body {
     margin: 0;
     padding: 0;
     font-size: 16px;
     color: white;
-    font-family: 'robotCondensed', sans-serif !important;
-}#sneakPeekScreen {
+    font-family: "robotCondensed", sans-serif !important;
+}
+#sneakPeekScreen {
     width: 100%;
     height: 100%;
     position: relative;
@@ -25,7 +26,8 @@ body{
     align-items: center;
     width: 375px;
     height: 670px;
-}#sneakHeading {
+}
+#sneakHeading {
     width: 65%;
     height: max-content;
     text-align: center;
@@ -35,13 +37,14 @@ body{
     background-repeat: no-repeat;
     left: 12.5%;
     top: 7%;
-    padding: 2.0%;
-}#sneakHeading h1 {
+    padding: 2%;
+}
+#sneakHeading h1 {
     font-size: 210%;
     margin: 0px;
     font-weight: normal;
-    
-}#sneakSide {
+}
+#sneakSide {
     width: 50%;
     height: 83%;
     position: absolute;
@@ -51,46 +54,66 @@ body{
     background-size: 100% 100%;
     right: 4.5%;
     top: 8%;
-}#sneakBlocks {
-    width: 90%;
+}
+#sneakBlocks {
+    width: 80%;
     position: absolute;
     top: 26.5%;
     left: 9.5%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     height: 58%;
-}a{
+    overflow-y: scroll;
+}
+a {
     text-decoration: none !important ;
     color: white;
     height: max-content;
-}.block {
-    width: 71%;
+}
+.block {
+    width: 90%;
     background-size: 100% 100%;
     height: 9.5%;
-    background-repeat:  no-repeat;
+    background-repeat: no-repeat;
     background-image: url(./assets/sneakPeek/Vector\ 143.png);
     display: flex;
     justify-content: space-between;
     padding: 2.5% 3.5%;
     cursor: pointer;
     font-weight: lighter;
-
-}.block h1{
+    margin-bottom: 5%;
+}
+.block h1 {
     font-size: 110%;
     margin: 0;
     font-weight: lighter;
-}.block h1:nth-of-type(1){
+}
+.block h1:nth-of-type(1) {
     align-self: flex-end;
-}.block h2{
+}
+.block h2 {
     font-size: 50%;
     margin: 0px;
     font-weight: lighter;
-
 }
 .block:nth-child(odd) {
     background-image: url(./assets/sneakPeek/Vector\ 146.png);
-}.block:nth-child(even) {
+}
+.block:nth-child(even) {
     background-image: url(./assets/sneakPeek/Vector\ 149.png);
-    color: #FF4F4F;
+    color: #ff4f4f;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    transition: 2s ease;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff4f4f;
+    border-radius: 25px;
 }
