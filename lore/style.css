@@ -14,10 +14,10 @@ body {
 #loreScreen {
     width: 100%;
     height: 100%;
-    width: 675px;
-    height: 440px;
-    width: 1090px;
-    height: 470px;
+    /* width: 675px;
+    height: 440px; */
+    /* width: 1090px;
+    height: 470px; */
     position: relative;
     background-image: url(./public/simple_bg.png);
     background-repeat: no-repeat;
@@ -51,15 +51,9 @@ body {
     color: white;
     font-weight: normal;
 }
-#lore-cards {
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
-    position: absolute;
-    bottom: 21%;
-}
+
 #lore-card {
-    width: 110%;
+    width: 125%;
     height: 100%;
     background-image: url(./public/lore-card-bg.png);
     background-repeat: no-repeat;
@@ -80,14 +74,14 @@ body {
     z-index: 9;
     font-size: 125%;
     font-weight: lighter;
-    bottom: 0;       
+    bottom: 0;
 }
 #lore-card::after {
     content: "";
     position: absolute;
-    top: 0.5%;
-    width: 92%;
-    height: 98.5%;
+    top: 3.25%;
+    width: 90%;
+    height: 93.5%;
     display: inline-block;
     background:
         linear-gradient(195deg, rgba(113, 255, 214, 0.8) -34.24%, rgba(0, 0, 0, 0.8) 62.91%),
@@ -154,42 +148,51 @@ body {
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none !important ;
     color: white;
     height: max-content;
 }
 
 .slider {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
     position: absolute;
-    width: 85%;
+    bottom: 25%;
+    position: absolute;
     height: max-content;
-    top: 13.5%;
+    /* top: 13.5%; */
     text-align: center;
     z-index: -1;
 }
-
 .splide__slide img {
     width: 70% !important;
 }
-
+.splide__slide,
 .splide__arrow--next,
 .splide__arrow--prev {
     background: none !important;
-    top: 60% !important;
+    top: 50% !important;
+}.splide__slide{
+    display: flex;
+    justify-content: c;
 }
-
-.splide__slide {
+.splide__arrow--prev {
+    /* left: -3.5% !important; */
+}
+.splide__arrow--next {
+    right: -2% !important;
+}
+.splide__slide svg,
+.splide__arrow--next svg,
+.splide__arrow--prev svg {
+    fill: #ff4f4f !important;
+    width: 100% !important;
+    height: 100% !important;
+}.splide__slide{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.splide__slide svg,
-.splide__arrow--next svg,
-.splide__arrow--prev svg {
-    fill: #FF4F4F !important;
-    width: 100% !important;
-    height: 100% !important;
 }

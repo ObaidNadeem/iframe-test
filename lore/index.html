@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lore</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
 </head>
 
 <body>
@@ -13,30 +16,44 @@
         <div id="loreHeading">
             <h1>LORE</h1>
         </div>
-        <div id="lore-cards">
-            <a href="./lore.html">
-                <div id="lore-card">
-                    <img src="./public/lore-card-img.png" alt="">
-                    <h1>OPTION 1</h1>
+        <div class="slider">
+            <div class="splide" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <a href="./lore.html">
+                                <div id="lore-card">
+                                    <img src="./public/lore-card-img.png" alt="">
+                                    <h1>OPTION 1</h1>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                            <a href="./lore.html">
+                                <div id="lore-card">
+                                    <img src="./public/lore-card-img.png" alt="">
+                                    <h1>OPTION 1</h1>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                            <a href="./lore.html">
+                                <div id="lore-card">
+                                    <img src="./public/lore-card-img.png" alt="">
+                                    <h1>OPTION 1</h1>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </a>
-            <a href="./lore.html">
-                <div id="lore-card">
-                    <img src="./public/lore-card-img.png" alt="">
-                    <h1>OPTION 1</h1>
-                </div>
-            </a>
-            <a href="./lore.html">
-                <div id="lore-card">
-                    <img src="./public/lore-card-img.png" alt="">
-                    <h1>OPTION 1</h1>
-                </div>
-            </a>
+            </div>
         </div>
     </div>
 </body>
 
-
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
 <script src="./script.js"></script>
 
 </html>
