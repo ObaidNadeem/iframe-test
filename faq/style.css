@@ -47,7 +47,7 @@ body {
 }
 #faqSide {
     width: 50%;
-    height: 83%;
+    height: 83%; 
     position: absolute;
     display: flex;
     background-image: url(./assets/sneakPeek/Group\ 43.png);
