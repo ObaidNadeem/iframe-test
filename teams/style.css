@@ -14,8 +14,8 @@ body {
 #teamScreen {
     width: 100%;
     height: 100%;
-    width: 675px;
-    height: 440px;
+    /* width: 675px;
+    height: 440px; */
     position: relative;
     background-image: url(./public/team-bg.png);
     background-repeat: no-repeat;
