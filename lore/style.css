@@ -53,8 +53,8 @@ body {
 }
 
 #lore-card {
-    width: 105%;
-    height: 100%;
+    width: 100%;
+    height: 110%;
     background-image: url(./public/lore-card-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -156,7 +156,7 @@ a {
 
 .slider {
     display: flex;
-    width: 60%;
+    width: 50%;
     justify-content: space-between;
     position: absolute;
     bottom: 24%;
