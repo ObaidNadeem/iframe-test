@@ -16,10 +16,10 @@ body {
     height: 100%;
     /* width: 675px;
     height: 440px; */
-    /* width: 1090px;
-    height: 470px; */
+    width: 1090px;
+    height: 470px;
     position: relative;
-    background-image: url(./public/simple_bg.png);
+    background-image: url(./public/lore-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -37,7 +37,7 @@ body {
     background-size: 100% 100%;
     position: absolute;
     background-repeat: no-repeat;
-    top: 13.5%;
+    top: 11.5%;
     left: 11%;
     display: flex;
     justify-content: space-between;
@@ -159,7 +159,7 @@ a {
     width: 60%;
     justify-content: space-between;
     position: absolute;
-    bottom: 21%;
+    bottom: 24%;
     position: absolute;
     height: max-content;
     /* top: 13.5%; */
