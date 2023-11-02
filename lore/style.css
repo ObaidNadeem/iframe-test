@@ -16,8 +16,8 @@ body {
     height: 100%;
     /* width: 675px;
     height: 440px; */
-    width: 1090px;
-    height: 470px;
+    /* width: 1090px;
+    height: 470px; */
     position: relative;
     background-image: url(./public/lore-bg.png);
     background-repeat: no-repeat;
@@ -44,6 +44,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 2%;
+    left: 8%;
 }
 #loreHeading h1 {
     font-size: 200%;
@@ -165,6 +166,7 @@ a {
     /* top: 13.5%; */
     text-align: center;
     z-index: -1;
+    left: 23%;
 }
 .splide__slide img {
     width: 100% !important;

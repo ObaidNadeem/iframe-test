@@ -24,8 +24,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 375px;
-    height: 670px;
+    /* width: 375px;
+    height: 670px; */
 }
 #sneakHeading {
     width: 65%;
