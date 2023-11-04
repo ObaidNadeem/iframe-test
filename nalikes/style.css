@@ -11,18 +11,18 @@ body {
     font-size: 16px;
     font-family: "robotCondensed", sans-serif !important;
 }
-#loreScreen {
+#nalikesScreen {
     width: 100%;
     height: 100%;
-    width: 675px;
-    height: 440px;
+    /* width: 675px;
+    height: 440px; */
     position: relative;
     background-image: url(./public/nalikes.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     position: absolute;
-    z-index: 9999;
+    /* z-index: 9999; */
     display: flex;
     justify-content: center;
     align-items: center;
