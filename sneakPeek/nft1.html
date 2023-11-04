@@ -29,8 +29,8 @@
         #sneakPeekScreen {
             width: 100%;
             height: 100%;
-            width: 375px;
-            height: 670px;
+            /* width: 375px;
+            height: 670px; */
             position: relative;
             background-image: url(./assets/nftPages/mainBg.png);
             background-repeat: no-repeat;
@@ -112,7 +112,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            padding: 2% 10%;
+            padding: 4% 14.5%;
             position: absolute;
             bottom: 12%;
             cursor: pointer;
@@ -123,6 +123,8 @@
             font-size: 75%;
             margin: 0;
             padding: 0;
+            position: absolute;
+            transform: translate(-50%, -50%);
         }
 
         ::-webkit-scrollbar {
@@ -208,6 +210,56 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
         focus: 'none',
         pagination: false
     }).mount();
+
+    // Scrambled Text Animation
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    const animationConfig = {
+        h1Element: document.querySelector(".nftCloseBtn h1"),
+        intervals: [],
+    };
+    let iteration = 0;
+
+    function scrambledTextAnimation(text, nextText) {
+        const { h1Element, intervals } = animationConfig;
+
+        clearInterval(intervals[0]);
+        intervals[0] = setInterval(() => {
+            h1Element.textContent = nextText.length > text.length ?
+                nextText
+                    .split("")
+                    .map((letter, index) => {
+                        if (index < iteration) {
+                            return nextText[index];
+                        }
+
+                        return letters[Math.floor(Math.random() * 26)];
+                    })
+                    .join("") :
+
+                text
+                    .split("")
+                    .map((letter, index) => {
+                        if (index < iteration) {
+                            return nextText[index];
+                        }
+
+                        return letters[Math.floor(Math.random() * 26)];
+                    })
+                    .join("")
+
+            if (iteration >= nextText.length) {
+            }
+
+            iteration += 1 / 3;
+        }, 30);
+    }
+
+    document.querySelector('.nftCloseBtn').addEventListener("mouseover", () => {
+        iteration = 0;
+        scrambledTextAnimation('CLOSE', 'CLOSE');
+    })
+
 </script>
 
 

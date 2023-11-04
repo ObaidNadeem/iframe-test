@@ -125,7 +125,7 @@ a {
 .block h1 {
     font-size: 90%;
     margin: 0;
-    font-weight: bold;
+    font-weight: normal;
     width: 85%;
 }
 .block p {

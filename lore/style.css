@@ -136,7 +136,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 0.75% 4%;
+    padding: 1.5% 6%;
     position: absolute;
     bottom: 18%;
     cursor: pointer;
@@ -147,6 +147,8 @@ body {
     font-size: 75%;
     margin: 0;
     padding: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 a {
@@ -176,7 +178,8 @@ a {
 .splide__arrow--prev {
     background: none !important;
     top: 50% !important;
-}.splide__slide{
+}
+.splide__slide {
     display: flex;
     justify-content: c;
 }
@@ -192,7 +195,8 @@ a {
     fill: #ff4f4f !important;
     width: 100% !important;
     height: 100% !important;
-}.splide__slide{
+}
+.splide__slide {
     display: flex;
     flex-direction: column;
     justify-content: center;
