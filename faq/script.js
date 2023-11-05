@@ -44,5 +44,5 @@ blocks.forEach(block => {
 const isMobileOrTablet = /Mobi|Tablet/i.test(navigator.userAgent);
 
 if(isMobileOrTablet){
-    document.body.style.fontSize = '24px';
+    document.body.style.fontSize = '32px';
 }
