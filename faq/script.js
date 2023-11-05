@@ -40,9 +40,3 @@ blocks.forEach(block => {
     });
 });
 
-// Font size
-const isMobileOrTablet = /Mobi/i.test(navigator.userAgent);
-
-if(isMobileOrTablet){
-    document.querySelector('#faqScreen').style.fontSize = '32px';
-}

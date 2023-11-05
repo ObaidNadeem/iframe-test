@@ -1,3 +1,10 @@
+// Font size
+const isMobileOrTablet = /Mobi|Tablet/i.test(navigator.userAgent);
+
+if(isMobileOrTablet){
+    document.querySelector('#faqScreen').style.fontSize = '32px';
+}
+
 new Splide('.splide', {
     type: 'loop',
     perPage: 3,
