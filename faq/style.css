@@ -40,7 +40,7 @@ body {
     padding: 2%;
 }
 #faqHeading h1 {
-    font-size: 210%;
+    font-size: 285%;
     margin: 0px;
     font-weight: normal;
 }
@@ -117,13 +117,13 @@ a {
     height: fit-content;
 }
 .block h1 {
-    font-size: 90%;
+    font-size: 160%;
     margin: 0;
     font-weight: normal;
     width: 85%;
 }
 .block p {
-    font-size: 90%;
+    font-size: 160%;
     margin: 5% 0%;
     /* font-weight: lighter; */
     width: 85%;
