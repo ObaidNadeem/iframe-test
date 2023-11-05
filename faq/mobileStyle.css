@@ -137,3 +137,14 @@ a {
     /* background-image: url(./assets/sneakPeek/Vector\ 149.png); */
     border: 1px solid #ff4f4f;
 }
+#faqHeading h1 {
+    font-size: 285%;
+}
+.block h1 {
+    font-size: 140%;
+    font-weight: lighter;
+}
+.block p {
+    font-size: 140%;
+    font-weight: lighter;
+}
