@@ -8,6 +8,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-size: 16px;
     font-family: "robotCondensed", sans-serif !important;
 }
 #loreScreen {
@@ -28,19 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 16px;
 }
-
-@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi),
-    only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi),
-    only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi),
-    only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi),
-    only screen and (min-resolution: 169dpi) {
-    #loreScreen {
-        font-size: 24px;
-    }
-}
-
 #loreHeading {
     width: 75%;
     height: 23%;
