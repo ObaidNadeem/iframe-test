@@ -2,7 +2,7 @@
 const isMobileOrTablet = /Mobi|Tablet/i.test(navigator.userAgent);
 
 if(isMobileOrTablet){
-    document.querySelector('#faqScreen').style.fontSize = '32px';
+    document.querySelector('#loreScreen').style.fontSize = '32px';
 }
 
 new Splide('.splide', {
