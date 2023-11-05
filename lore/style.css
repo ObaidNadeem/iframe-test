@@ -8,12 +8,12 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 16px;
     font-family: "robotCondensed", sans-serif !important;
 }
 #loreScreen {
     width: 100%;
     height: 100%;
+    font-size: 16px;
     /* width: 675px;
     height: 440px; */
     /* width: 1090px;
@@ -30,6 +30,10 @@ body {
     align-items: center;
     color: white;
 }
+.mobile-tablet-font{
+    font-size: 24px !important;
+}
+
 #loreHeading {
     width: 75%;
     height: 23%;

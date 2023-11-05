@@ -1,10 +1,11 @@
-// Font size
 const isMobileOrTablet = /Mobi|Tablet/i.test(navigator.userAgent);
+const loreScreen = document.querySelector('#loreScreen');
 
-if(isMobileOrTablet){
-    document.querySelector('#loreScreen').style.fontSize = '32px';
+if (isMobileOrTablet) {
+    loreScreen.classList.add('mobile-tablet-font');
+} else {
+    loreScreen.classList.remove('mobile-tablet-font');
 }
-
 new Splide('.splide', {
     type: 'loop',
     perPage: 3,
