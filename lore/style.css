@@ -13,7 +13,6 @@ body {
 #loreScreen {
     width: 100%;
     height: 100%;
-    font-size: 16px;
     /* width: 675px;
     height: 440px; */
     /* width: 1090px;
@@ -29,9 +28,17 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 16px;
 }
-.mobile-tablet-font{
-    font-size: 24px !important;
+
+@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi),
+    only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi),
+    only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi),
+    only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi),
+    only screen and (min-resolution: 169dpi) {
+    #loreScreen {
+        font-size: 24px;
+    }
 }
 
 #loreHeading {
