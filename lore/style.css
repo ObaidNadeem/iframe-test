@@ -15,8 +15,8 @@ body {
     height: 100%;
     /* width: 675px;
     height: 440px; */
-    /* width: 1090px;
-    height: 470px; */
+    width: 1090px;
+    height: 470px;
     position: relative;
     background-image: url(./public/lore-bg.png);
     background-repeat: no-repeat;
@@ -51,16 +51,6 @@ body {
     margin: 0px;
     color: white;
     font-weight: normal;
-}
-
-@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi),
-    only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi),
-    only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi),
-    only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi),
-    only screen and (min-resolution: 169dpi) {
-    #loreHeading h1 {
-        font-size: 400%;
-    }
 }
 
 #lore-card {
@@ -211,4 +201,22 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi),
+    only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi),
+    only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi),
+    only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi),
+    only screen and (min-resolution: 169dpi) {
+    #loreHeading h1 {
+        font-size: 275%;
+    }
+    #lore-card h1{
+        font-size: 150%;
+    }
+    #lore-content p{
+        font-size: 175%;
+    }
+    .loreCloseBtn h1{
+        font-size: 125%;
+    }
 }
