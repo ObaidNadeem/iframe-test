@@ -26,7 +26,6 @@ body {
     align-items: center;
     /* width: 375px;
     height: 670px; */
-    
 }
 #faqHeading {
     width: 65%;
@@ -47,7 +46,7 @@ body {
 }
 #faqSide {
     width: 50%;
-    height: 83%; 
+    height: 83%;
     position: absolute;
     display: flex;
     background-image: url(./assets/sneakPeek/Group\ 43.png);
@@ -66,21 +65,17 @@ body {
     /* justify-content: space-between; */
     height: 58%;
     overflow-y: scroll;
-
-
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 5px;
     transition: 2s ease;
-
 }
 
-::-webkit-scrollbar-track{
- background: transparent;
-
+::-webkit-scrollbar-track {
+    background: transparent;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background: #ff4f4f;
     border-radius: 25px;
 }
@@ -103,11 +98,10 @@ a {
     align-items: center;
     margin-top: 5%;
 }
-.question{
+.question {
     display: flex;
-
 }
-.question img{
+.question img {
     margin-right: 10px;
 }
 .answer {
@@ -115,7 +109,7 @@ a {
     overflow: hidden;
     transition: max-height 0.25s ease-in-out;
 }
-.block.active .answer{
+.block.active .answer {
     max-height: 300px;
 }
 .block img {
@@ -142,4 +136,22 @@ a {
 .block:nth-child(even) {
     /* background-image: url(./assets/sneakPeek/Vector\ 149.png); */
     border: 1px solid #ff4f4f;
+}
+
+@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi),
+    only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi),
+    only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi),
+    only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi),
+    only screen and (min-resolution: 169dpi) {
+    #faqHeading h1 {
+        font-size: 285%;
+    }
+    .block h1 {
+        font-size: 140%;
+        font-weight: lighter;
+    }
+    .block p {
+        font-size: 140%;
+        font-weight: lighter;
+    }
 }

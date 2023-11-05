@@ -202,10 +202,21 @@ a {
     justify-content: center;
     align-items: center;
 }
-/* @media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi),
+@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi),
     only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi),
     only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi),
     only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi),
     only screen and (min-resolution: 169dpi) {
-   
-} */
+    #loreHeading h1 {
+        font-size: 275%;
+    }
+    #lore-card h1{
+        font-size: 150%;
+    }
+    #lore-content p{
+        font-size: 175%;
+    }
+    .loreCloseBtn h1{
+        font-size: 125%;
+    }
+}
