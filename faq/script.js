@@ -40,3 +40,19 @@ blocks.forEach(block => {
     });
 });
 
+// use diff css
+const isMobileOrTablet = /Mobi|Tablet/i.test(navigator.userAgent);
+
+if (!isMobileOrTablet) {
+    // Load a different stylesheet for non-mobile and non-tablet devices
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = './style.css';
+    document.head.appendChild(link);
+} else {
+    // Load a different stylesheet for mobile and tablet devices
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = './mobileStyle.css';
+    document.head.appendChild(link);
+}
