@@ -40,3 +40,16 @@ blocks.forEach(block => {
     });
 });
 
+const isMobileOrTablet = /Mobi|Tablet/i.test(navigator.userAgent);
+
+if (!isMobileOrTablet) {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'style.css';
+    document.head.appendChild(link);
+} else {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'mobileStyle.css';
+    document.head.appendChild(link);
+}
