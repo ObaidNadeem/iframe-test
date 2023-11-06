@@ -24,8 +24,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 375px;
-    height: 670px; */
+    width: 375px;
+    height: 670px;
 }
 #faqHeading {
     width: 65%;
@@ -129,9 +129,11 @@ a {
 }
 .block p {
     font-size: 80%;
-    margin: 50px 0%;
+    margin: 5% 0%;
     /* font-weight: lighter; */
     width: 85%;
+    padding-left: 10%;
+
 }
 .block:nth-child(odd) {
     /* background-image: url(./assets/sneakPeek/Vector\ 146.png); */
@@ -158,6 +160,6 @@ a {
     .block p {
         width: 65%;
         padding-left: 15%;
-        scale: 1.55;
+        scale: 1.9;
     }
 }
