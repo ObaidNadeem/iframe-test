@@ -40,3 +40,4 @@ blocks.forEach(block => {
     });
 });
 
+const isMobileOrTablet = /Mobi|Tablet/i.test(navigator.userAgent);
