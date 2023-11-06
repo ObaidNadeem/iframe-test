@@ -125,9 +125,9 @@ a {
     margin: 0;
     font-weight: normal;
     width: 85%;
-    scale: 1.6;
+    scale: 2;
     width: max-content;
-    margin-left: 12.5%;
+    margin-left: 20%;
     display: flex;
     align-items: center;
 }
