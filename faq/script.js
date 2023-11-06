@@ -22,22 +22,25 @@ const blocks = document.querySelectorAll('.block');
 blocks.forEach(block => {
     const question = block.querySelector('.question');
     const answer = block.querySelector('.answer');
+    const answerP = block.querySelector('.answer p');
 
     question.addEventListener('click', function () {
         blocks.forEach(b => {
             if (b !== block) {
                 b.classList.remove('open');
-                b.querySelector('.answer').style.maxHeight = null;
+                b.querySelector('.answer').style.height = null;
             }
         });
 
         block.classList.toggle('open');
         if (block.classList.contains('open')) {
-            answer.style.maxHeight = answer.scrollHeight + 'px';
+            answer.style.height = answerP.getBoundingClientRect().height + answer.getBoundingClientRect().height + 'px';
         } else {
-            answer.style.maxHeight = null;
+            answer.style.height = null;
         }
+        console.log(answerP.getBoundingClientRect().height + answer.getBoundingClientRect().height )
     });
+    
 });
 
 const isMobileOrTablet = /Mobi|Tablet/i.test(navigator.userAgent);

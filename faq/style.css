@@ -108,9 +108,11 @@ a {
     margin-right: 10px;
 }
 .answer {
-    max-height: 0;
+    height: 0;
+    max-height: 100%;
     overflow: hidden;
-    transition: max-height 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    padding-bottom: 5%;
 }
 .block.active .answer {
     max-height: 300px;
@@ -133,7 +135,6 @@ a {
     /* font-weight: lighter; */
     width: 85%;
     padding-left: 10%;
-
 }
 .block:nth-child(odd) {
     /* background-image: url(./assets/sneakPeek/Vector\ 146.png); */
@@ -154,12 +155,15 @@ a {
     }
     .block h1 {
         scale: 2;
-        margin-left: 20%;
+        margin-left: 0%;
         width: max-content;
+        transform-origin: top left;
+        align-items: flex-start;
     }
     .block p {
-        width: 65%;
-        padding-left: 15%;
+        width: 45%;
+        padding-left: 7%;
         scale: 1.9;
+        transform-origin: top left;
     }
 }
