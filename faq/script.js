@@ -41,3 +41,6 @@ blocks.forEach(block => {
 });
 
 const isMobileOrTablet = /Mobi|Tablet/i.test(navigator.userAgent);
+if(isMobileOrTablet){
+    console.log(isMobileOrTablet)
+}
