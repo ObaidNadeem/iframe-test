@@ -24,8 +24,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 375px;
-    height: 670px; */
+    width: 375px;
+    height: 670px;
 }
 #faqHeading {
     width: 65%;
@@ -38,11 +38,15 @@ body {
     left: 12.5%;
     top: 7%;
     padding: 2%;
+    display: flex;
+    justify-content: center;
 }
 #faqHeading h1 {
     font-size: 210%;
     margin: 0px;
     font-weight: normal;
+    width: max-content;
+    scale: 1.3;
 }
 #faqSide {
     width: 50%;
@@ -121,13 +125,19 @@ a {
     margin: 0;
     font-weight: normal;
     width: 85%;
+    scale: 2;
+    width: max-content;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
 }
 .block p {
     font-size: 80%;
-    margin: 5% 0%;
+    margin: 50px 0%;
     /* font-weight: lighter; */
-    width: 85%;
+    width: 65%;
     padding-left: 15%;
+    scale: 1.55;    
 }
 .block:nth-child(odd) {
     /* background-image: url(./assets/sneakPeek/Vector\ 146.png); */
