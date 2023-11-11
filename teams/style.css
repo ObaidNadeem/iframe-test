@@ -14,8 +14,8 @@ body {
 #teamScreen {
     width: 100%;
     height: 100%;
-    /* width: 675px;
-    height: 440px; */
+    width: 675px;
+    height: 440px;
     position: relative;
     background-image: url(./public/team-bg.png);
     background-repeat: no-repeat;
@@ -67,7 +67,8 @@ body {
 .splide__arrow--prev {
     background: none !important;
     /* top: 35% !important; */
-}.splide__slide{
+}
+.splide__slide {
     display: flex;
     justify-content: c;
 }
@@ -75,7 +76,7 @@ body {
     left: -5.5% !important;
 }
 .splide__arrow--next {
-    right: -6.0% !important;
+    right: -6% !important;
 }
 .splide__slide svg,
 .splide__arrow--next svg,
@@ -83,7 +84,8 @@ body {
     fill: #ff4f4f !important;
     width: 100% !important;
     height: 100% !important;
-}.splide__slide{
+}
+.splide__slide {
     display: flex;
     justify-content: center;
 }
@@ -133,4 +135,22 @@ body {
     width: auto;
     height: 35%;
     border: none;
+}
+
+@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi),
+    only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi),
+    only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi),
+    only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi),
+    only screen and (min-resolution: 169dpi) {
+    #teamHeading h1 {
+        font-size: 240%;
+    }
+    .team-member p{
+        font-size: 80%;
+        margin-top: 5%;
+    }
+    .team-member-socials img {
+        height: 50%;
+    }
+    
 }
