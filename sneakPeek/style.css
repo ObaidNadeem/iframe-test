@@ -124,12 +124,12 @@ a {
     only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi),
     only screen and (min-resolution: 169dpi) {
     #sneakHeading h1 {
-        font-size: 255%;
+        font-size: 250%;
     }
     .block h1{
-        font-size: 135%;
+        font-size: 125%;
     }
     .block h2{
-        font-size: 100%;
+        font-size: 85%;
     }
 }
