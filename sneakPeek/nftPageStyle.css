@@ -41,7 +41,7 @@ body {
     text-align: center;
 }
 
-#description {
+.nftContent p {
     text-align: start;
     font-size: 120%;
     overflow-y: scroll;
@@ -50,12 +50,6 @@ body {
     position: absolute;
     top: 20%;
     padding: 0% 2.5%;
-}
-
-.nftContent p {
-    text-align: start;
-    font-size: 120%;
-    position: absolute;
 }
 
 a {
@@ -140,10 +134,10 @@ a {
     .nftContent h1 {
         font-size: 225%;
     }
-    .nftContent p {
+    .nftContent p{
         font-size: 150%;
     }
-    .nftCloseBtn h1 {
+    .nftCloseBtn h1{
         font-size: 125%;
     }
 }
