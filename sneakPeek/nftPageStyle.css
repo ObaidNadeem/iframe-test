@@ -136,7 +136,7 @@ a {
     }
     .nftContent p{
         font-size: 150%;
-        height: 50%;
+        overflow: scroll;
     }
     .nftCloseBtn h1{
         font-size: 125%;
