@@ -55,7 +55,7 @@ body {
 .nftContent p {
     text-align: start;
     font-size: 120%;
-    position: relative;
+    position: absolute;
 }
 
 a {
