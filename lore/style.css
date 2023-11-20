@@ -202,6 +202,50 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+#scroll-up,
+#scroll-down {
+    position: absolute;
+    top: 45%;
+    /* transform: translateY(-50%); */
+    margin: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 100%;
+    display: none;
+    right: 26%;
+}
+
+#scroll-up i {
+    /* padding-top: 10%; */
+    background-color: #ff4f4f;
+    padding: 50%;
+    border-radius: 5px;
+    transform: translateX(-25%);
+}
+#scroll-down i {
+    /* margin-top: 2px; */
+    background-color: #ff4f4f;
+    padding: 50%;
+    border-radius: 5px;
+    transform: translateX(-25%);
+}
+
+#scroll-up {
+    transform: translateY(-100%);
+    padding: 0% 5%;
+    padding-top: 10%;
+}
+
+#scroll-down {
+    margin-top: 2.5%;
+    padding: 0% 5%;
+    padding-bottom: 10%;
+}
+
 @media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi),
     only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi),
     only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi),
@@ -218,5 +262,12 @@ a {
     }
     .loreCloseBtn h1 {
         font-size: 125%;
+    }
+    #lore-content p {
+        overflow: hidden;
+    }
+    #scroll-up,
+    #scroll-down {
+        display: block;
     }
 }

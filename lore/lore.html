@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-...." crossorigin="anonymous" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -15,7 +17,7 @@
         </div>
         <div id="lore-content">
             <div>
-                <p>Before the Storm Earth, the third planet from the Sun, was a blue-and-green jewel
+                <p id="loreContent">Before the Storm Earth, the third planet from the Sun, was a blue-and-green jewel
                     in
                     the cosmic void.
                     People, oblivious to the impending catastrophe, lived lives of joy, despair, and
@@ -52,6 +54,8 @@
                     defined
                     the rhythm of life on Earth. But all that changed on the Day of the Red Sky.</p>
             </div>
+            <button id="scroll-up"><i class="fas fa-chevron-up"></i></button>
+            <button id="scroll-down"><i class="fas fa-chevron-down"></i></button>
             <img src="./public/nft.png" alt="">
         </div>
         <a href="./index.html" class="loreCloseBtn">
@@ -110,6 +114,22 @@
         iteration = 0;
         scrambledTextAnimation('CLOSE', 'CLOSE');
     })
+
+    const scrollContent = document.getElementById('loreContent');
+    console.log(scrollContent)
+    const scrollUpButton = document.getElementById('scroll-up');
+    const scrollDownButton = document.getElementById('scroll-down');
+
+    const scrollStep = 50;
+
+    scrollUpButton.addEventListener('click', function () {
+        scrollContent.scrollTop -= scrollStep;
+    });
+
+    scrollDownButton.addEventListener('click', function () {
+        scrollContent.scrollTop += scrollStep;
+    });
+
 </script>
 
 </html>
