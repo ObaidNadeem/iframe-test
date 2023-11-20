@@ -8,6 +8,9 @@
     <link href="
         https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         " rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-...." crossorigin="anonymous" />
+
     <title>nft1</title>
 </head>
 
@@ -21,13 +24,16 @@
                         <li class="splide__slide">
                             <div class="nftContent">
                                 <h1>PHOTO #1</h1>
-                                <p>You need to mint now, i say right now would be the best time,You need to mint now, i
+                                <p id="nftContent">You need to mint now, i say right now would be the best time,You need
+                                    to mint now, i
                                     say right now would
                                     be the best time,You need to mint now, i say right now would be the best time.
                                     You need to mint now, i say right now would be the best time,You need to mint now, i
                                     say right now would
                                     be the best time,You need to mint now, i say right now would be the best time</p>
                             </div>
+                            <button id="scroll-up"><i class="fas fa-chevron-up"></i></button>
+                            <button id="scroll-down"><i class="fas fa-chevron-down"></i></button>
                             <img src="./assets/nftPages/nft.png" alt="">
                         </li>
                         <li class="splide__slide">
@@ -125,6 +131,22 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
         iteration = 0;
         scrambledTextAnimation('CLOSE', 'CLOSE');
     })
+
+    const scrollContent = document.getElementById('nftContent');
+    console.log(scrollContent)
+    const scrollUpButton = document.getElementById('scroll-up');
+    const scrollDownButton = document.getElementById('scroll-down');
+
+    const scrollStep = 50;
+
+    scrollUpButton.addEventListener('click', function () {
+        scrollContent.scrollTop -= scrollStep;
+    });
+
+    scrollDownButton.addEventListener('click', function () {
+        scrollContent.scrollTop += scrollStep;
+    });
+
 
 </script>
 
