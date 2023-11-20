@@ -221,14 +221,12 @@ a {
 
 #scroll-up i {
     /* padding-top: 10%; */
-    background-color: #ff4f4f;
     padding: 50%;
     border-radius: 5px;
     transform: translateX(-25%);
 }
 #scroll-down i {
     /* margin-top: 2px; */
-    background-color: #ff4f4f;
     padding: 50%;
     border-radius: 5px;
     transform: translateX(-25%);
