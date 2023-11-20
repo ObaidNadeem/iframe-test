@@ -16,8 +16,8 @@ body {
 #sneakPeekScreen {
     width: 100%;
     height: 100%;
-    /* width: 375px;
-    height: 670px; */
+    width: 375px;
+    height: 670px;
     position: relative;
     background-image: url(./assets/nftPages/mainBg.png);
     background-repeat: no-repeat;
@@ -179,4 +179,8 @@ a {
     #scroll-down {
         display: block;
     }
+}
+
+.nftContent p{
+    font-size: 150%;
 }
