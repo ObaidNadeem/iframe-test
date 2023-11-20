@@ -35,10 +35,9 @@ body {
 #scroll-up,
 #scroll-down {
     position: absolute;
-    top: 42.5%;
+    top: 40%;
     /* transform: translateY(-50%); */
     margin: 0;
-    padding: 5.75%;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -48,19 +47,25 @@ body {
     display: none;
 }
 
-#scroll-up i,
+#scroll-up i {
+    /* padding-top: 10%; */
+}
 #scroll-down i {
     /* margin-top: 2px; */
 }
 
 #scroll-up {
-    right: 1.0%;
+    right: 1%;
     transform: translateY(-100%);
+    padding: 2.75% 5%;
+    padding-top: 10%;
 }
 
 #scroll-down {
-    right: 1.0%;
+    right: 1%;
     margin-top: 2.5%;
+    padding: 2.75% 5%;
+    padding-bottom: 10%;
 }
 
 /* Rest of your existing styles */
@@ -181,6 +186,6 @@ a {
     }
 }
 
-.nftContent p{
+.nftContent p {
     font-size: 150%;
 }
