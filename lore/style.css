@@ -213,10 +213,10 @@ a {
     background-color: transparent;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: #ff4f4f;
     font-size: 100%;
     display: none;
-    right: 26%;
+    left: 5%;
 }
 
 #scroll-up i {
